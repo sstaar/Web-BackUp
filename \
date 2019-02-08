@@ -1,0 +1,15 @@
+<?php
+	$user_Name	=	$_POST['username'];
+	$user_Password	=	$_POST['password'];
+	$con		=	mysqli_connect("localhost", "root", "123456", "Users");
+	ini_set("display_errors", "On");
+	//phpinfo();
+	$result		=	mysqli_query("select * from users");
+	while ($user = mysql_fetch_object($result))
+	{
+		echo $user->User_Name;
+	}
+	mysql_free_result($result);
+	/*$sql		=	"insert into users (User_Name, User_Password) values ('$user_Name', '$user_Password')";
+	$query		=	mysqli_query($con, $sql);*/
+?>

@@ -1,0 +1,270 @@
+body
+{
+	background-image	:	url("./../img1.png");
+	color	:	white;
+	text-align	:	center;
+	padding	:	0;
+	margin	:	0;
+	font-family:Comic Sans MS;
+	display:flex;
+}
+
+.edit
+{
+	background-color	:	rgba(180, 180, 180, 0.4);
+	text-align	:	center;
+	border	:	solid	black;
+	border-radius	:	6px;
+	width	:	40rem;
+	height:auto;
+	padding	:	1rem;
+	padding-bottom	:	2rem;
+	margin	:	auto;
+	color	:	black;
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .4);
+}
+
+.test
+{
+	background-color	:	rgba(180, 180, 180, 0.4);
+	text-align	:	center;
+	border	:	solid	black;
+	border-radius	:	6px;
+	width	:	55rem;
+	height:auto;
+	padding	:	1rem;
+	padding-bottom	:	2rem;
+	margin	:	auto;
+	margin-top	:3rem;
+	margin-bottom:3rem;
+	color	:	black;
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .4);
+}
+
+p
+{
+	margin	:	0;
+	padding	:	0;
+}
+
+.username
+{
+	justify-content	:	space-between;
+	display	:	flex;
+	padding	:	0.5rem;
+	margin	:	0.2rem;
+	font-size	: 1rem;
+}
+
+.name
+{
+	width:40%;
+}
+
+.name p
+{
+	font-size	: 2rem;
+	margin-top	: 3px;
+}
+
+.field
+{
+	width:60%;
+}
+
+.field input
+{
+	text-align	: center;
+	border	:	solid	black;
+	border-radius:6px;
+	width:80%;
+	height:3rem;
+	font-size:2rem;
+	font-family:Comic Sans MS;
+}
+
+.button
+{
+	margin-top:3rem;
+	height:auto;
+}
+
+.button button
+{
+	width	: 60%;
+	height	: 6rem;
+	border	: solid black;
+	border-radius:6px;
+	font-size:4rem;
+	font-family:Comic Sans MS;
+	letter-spacing:1rem;
+}
+
+.button button:active
+{
+	background-color:#000000c7;
+	color	:	white;
+}
+
+.rememberme
+{
+	float	:	left;
+	margin	:	1.5rem;
+}
+
+.img a img
+{
+	padding:1rem;
+	border:black solid 2px;
+	border-radius:100%;
+}
+
+.img
+{
+}
+
+.fc
+{
+	float	:	right;
+}
+
+.reg
+{
+	margin	:	1rem;
+}
+
+.errors
+{
+	background-color:rgba(255, 0, 0, 0.2);
+	border:solid	black 1px;
+	border-radius:6px;
+	margin:1rem;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:1rem;
+	padding-bottom:1rem;
+	font-size:1rem;
+}
+
+.errors p
+{
+	color:white;
+	font-family:Comic Sans MS;
+}
+
+.succes
+{
+	background-color:rgba(0, 255, 0, 0.3);
+	border:solid	black 1px;
+	border-radius:6px;
+	margin:1rem;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:1rem;
+	padding-bottom:1rem;
+	font-size:1rem;
+}
+
+.info
+{
+	margin:auto;
+	padding:0;
+	background-color:#bfbfbf96;
+	border:black solid 2px;
+	border-radius:6px;
+	display:flex;
+	flex-direction:column;
+}
+
+.part
+{
+	display:column;
+}
+
+.pname
+{
+	width:auto;
+	text-align:left;
+	margin:0.5rem;
+	padding:0.5rem;
+}
+
+.pvalue
+{
+	margin:1rem;
+	padding:3rem;
+	border:solid black;
+	border-radius:6px;
+	background-color:#dde8e8a6;
+}
+
+.pname p
+{
+	font-size:1.2rem;
+}
+
+.pvalue p
+{
+	font-size: 2rem;
+}
+
+.editb
+{
+
+}
+
+.editb form button
+{
+	margin:1rem;
+	width:20rem;
+	height:3rem;
+	border:solid black 2px;
+	border-radius:6px;
+	font-family:Comic Sans MS;
+	font-size:1.5rem;
+	background-color:#99a0a28f;
+}
+
+.editb form button:active
+{
+	background:#000000c7;
+	color:white;
+}
+
+.epart
+{
+	width:auto;
+	text-align:left;
+	margin:0.5rem;
+	padding:0.5rem;
+
+
+}
+
+.evalue input
+{
+	margin:1rem;
+	padding:3rem;
+	border:solid black;
+	border-radius:6px;
+	width:80%;
+	background-color:#dde8e8a6;
+	text-align:center;
+	font-size:2rem;
+	font-family:Comic Sans MS
+}
+
+.save button
+{
+	margin:1rem;
+	width:20rem;
+	height:3rem;
+	border:solid black 2px;
+	border-radius:6px;
+	font-family:Comic Sans MS;
+	font-size:1.5rem;
+	background-color:#99a0a28f;
+
+}
